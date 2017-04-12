@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "data.task": "^3.1.1",
+    "fs-extra": "^2.1.2",
+    "ramda": "^0.23.0"
+  },
+  "scripts": {
+    "build": "node index.js",
+    "deploy": "git subtree push --prefix build origin gh-pages"
+  }
+}
