@@ -3,7 +3,7 @@
 const path = require('path')
 const { outputDir, srcDir, sassDir, sassEntry, cssOutputPath, cnamePath, cnameOutputPath } = require('./config')
 const { copy, remove, mkdirp, writeFile } = require('./lib/fs')
-const { buildSass } = require('./lib/sass')
+const buildSass = require('./lib/sass')
 const homePage = require('./src/js/pages/home')
 
 remove(outputDir)

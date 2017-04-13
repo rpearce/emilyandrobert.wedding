@@ -943,6 +943,12 @@ tar@^2.0.0:
     fstream "^1.0.2"
     inherits "2"
 
+task-from-fn@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/task-from-fn/-/task-from-fn-0.1.0.tgz#83e6f171692a1263820493b8028dfa1495d2114c"
+  dependencies:
+    data.task "^3.1.1"
+
 tough-cookie@~2.3.0:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.2.tgz#f081f76e4c85720e6c37a5faced737150d84072a"

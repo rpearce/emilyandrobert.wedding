@@ -8,5 +8,8 @@
   "scripts": {
     "build": "node index.js",
     "deploy": "git subtree push --prefix build origin gh-pages"
+  },
+  "dependencies": {
+    "task-from-fn": "^0.1.0"
   }
 }
