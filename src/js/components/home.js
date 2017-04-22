@@ -3,18 +3,18 @@
 function home() {
   return `
     <main>
-      <header>
+      <header class="hero">
         <h1>
-          <div class="fancy">Emily & Robert</div>
+          <div>Emily &amp; Robert</div>
           <small>Are Getting Married</small>
         </h1>
-        <div>
-          <div class="fancy">Auckland</div>
-          <div>February 18<sup>th</sup> 2018</div>
+        <div class="hero__info">
+          <div class="hero__infoLocation">Auckland</div>
+          <div class="hero__infoDate">February 18<sup>th</sup> 2018</div>
         </div>
-        <div>
-          <div class="fancy">Charleston</div>
-          <div>March 3<sup>rd</sup> 2018</div>
+        <div class="hero__info">
+          <div class="hero__infoLocation">Charleston</div>
+          <div class="hero__infoDate">March 3<sup>rd</sup> 2018</div>
         </div>
       </header>
       <section>
@@ -34,16 +34,16 @@ function home() {
         </ul>
       </section>
       <section>
-        <h2 class="fancy">Flight Information</h2>
+        <h2>Flight Information</h2>
       </section>
       <section>
-        <h2 class="fancy">Car Rental</h2>
+        <h2>Car Rental</h2>
       </section>
       <section>
-        <h2 class="fancy">Auckland Accomodation</h2>
+        <h2>Auckland Accomodation</h2>
       </section>
       <section>
-        <h2 class="fancy">Things To Do</h2>
+        <h2>Things To Do</h2>
         <div>
           <h3>Around Auckland</h3>
         </div>

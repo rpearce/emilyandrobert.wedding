@@ -1,0 +1,10 @@
+@mixin fontHeading() {
+  font-family: $fontFamily--heading;
+  font-weight: normal;
+}
+@mixin fontSubHeading() {
+  font-family: $fontFamily--subHeading;
+  font-size: 1.25rem;
+  letter-spacing: 0.15rem;
+  color: rgba(255, 255, 255, 1);
+}

@@ -14,7 +14,7 @@ body {
   font-size: 16px;
 }
 body {
-  font-family: "Trajan Pro", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: $fontFamily--base;
   line-height: 1.5;
   color: #334249;
   margin: 0;
@@ -27,23 +27,25 @@ button {
 section {
   padding: 4em 1em;
 }
+h1,
+h2,
+h3 {
+  @include fontHeading();
+}
 h1 {
   font-size: 2.643rem;
-  font-weight: 400;
   @media only screen and (min-width: 768px) {
     font-size: 4rem;
   }
 }
 h2 {
   font-size: 1.643rem;
-  font-weight: 400;
   @media only screen and (min-width: 768px) {
     font-size: 3rem;
   }
 }
 h3 {
   font-size: 1.286rem;
-  font-weight: 400;
   @media only screen and (min-width: 768px) {
     font-size: 2rem;
   }
@@ -55,15 +57,19 @@ p {
 p + p {
   margin-top: 1em;
 }
+small {
+  font-size: 80%;
+  h1 & {
+    display: block;
+    @include fontSubHeading;
+    text-transform: lowercase;
+    font-weight: normal;
+  }
+}
 img {
   display: block;
   border: 0;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
-
-
-.fancy {
-  font-family: "silicia_scriptregular";
 }
