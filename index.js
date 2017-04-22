@@ -13,13 +13,16 @@ const {
   cnamePath,
   cnameOutputPath,
   fontsPath,
-  fontsOutputPath
+  fontsOutputPath,
+  imagesPath,
+  imagesOutputPath
 } = require('./config')
 
 remove(outputDir)
   .chain(_ => mkdirp(outputDir))
   .chain(_ => copy(cnamePath, cnameOutputPath))
   .chain(_ => copy(fontsPath, fontsOutputPath))
+  .chain(_ => copy(imagesPath, imagesOutputPath))
   .chain(_ => buildSass({ sassDir, sassEntry }))
   .chain(css => writeFile(cssOutputPath, css))
   .chain(_ => writeFile(path.join(outputDir, 'index.html'), homePage()))

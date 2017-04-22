@@ -13,6 +13,9 @@ const cnameOutputPath = path.join(outputDir, 'CNAME')
 const fontsPath = path.join(srcDir, 'fonts')
 const fontsOutputPath = path.join(outputDir, 'fonts')
 
+const imagesPath = path.join(srcDir, 'images')
+const imagesOutputPath = path.join(outputDir, 'images')
+
 module.exports = {
   srcDir,
   outputDir,
@@ -22,5 +25,7 @@ module.exports = {
   cnamePath,
   cnameOutputPath,
   fontsPath,
-  fontsOutputPath
+  fontsOutputPath,
+  imagesPath,
+  imagesOutputPath
 }
