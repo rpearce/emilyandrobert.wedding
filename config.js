@@ -10,6 +10,9 @@ const cssOutputPath = path.join(outputDir, 'styles.css')
 const cnamePath = path.join(srcDir, 'CNAME')
 const cnameOutputPath = path.join(outputDir, 'CNAME')
 
+const fontsPath = path.join(srcDir, 'fonts')
+const fontsOutputPath = path.join(outputDir, 'fonts')
+
 module.exports = {
   srcDir,
   outputDir,
@@ -17,5 +20,7 @@ module.exports = {
   sassEntry,
   cssOutputPath,
   cnamePath,
-  cnameOutputPath
+  cnameOutputPath,
+  fontsPath,
+  fontsOutputPath
 }
