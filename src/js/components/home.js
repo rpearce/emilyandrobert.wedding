@@ -34,16 +34,16 @@ function home() {
         </ul>
       </section>
       <section>
-        <h2>Flight Information</h2>
+        <h2 class="fancy">Flight Information</h2>
       </section>
       <section>
-        <h2>Car Rental</h2>
+        <h2 class="fancy">Car Rental</h2>
       </section>
       <section>
-        <h2>Auckland Accomodation</h2>
+        <h2 class="fancy">Auckland Accomodation</h2>
       </section>
       <section>
-        <h2>Things To Do</h2>
+        <h2 class="fancy">Things To Do</h2>
         <div>
           <h3>Around Auckland</h3>
         </div>
