@@ -21,7 +21,7 @@ function home() {
         <div class="l--constrained">
           <div class="row">
             <div class="row__half">
-              <h2>Kumeu Valley Estate</h3>
+              <h2>Kumeu Valley Estate</h2>
               <p>Located admist the vineyards of the Kumeu Valley just 20 minutes from Auckland city, the venue contains an outdoor ceremony area, a modernised farm house and a barn complete with an outdoor patio.</p>
               <p>
                 It is located at <a href="https://www.google.co.nz/maps/place/Kumeu+Valley+Estate/@-36.74204,174.5089526,17z/data=!4m13!1m7!3m6!1s0x6d0d13e2a8bebcf9:0x72cb9cd0bdfe7b12!2s972+Old+N+Rd,+Huapai,+Waimauku+0882!3b1!8m2!3d-36.74204!4d174.5111413!3m4!1s0x6d0d13e2a8bebcf9:0x78e8ec38867eff09!8m2!3d-36.74204!4d174.5111413">972 Old North Road, Waimauku, Auckland</a>,

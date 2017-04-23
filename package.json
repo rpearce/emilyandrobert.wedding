@@ -9,6 +9,7 @@
     "build": "node index.js"
   },
   "dependencies": {
+    "html-minifier": "^3.4.3",
     "task-from-fn": "^0.1.0"
   }
 }
