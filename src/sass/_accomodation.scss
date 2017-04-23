@@ -5,7 +5,9 @@
   list-style: none;
   margin-bottom: 0;
   > li {
-    width: 50%;
     margin-bottom: 0.5em;
+    @media only screen and (min-width: 768px) {
+      width: 50%;
+    }
   }
 }
