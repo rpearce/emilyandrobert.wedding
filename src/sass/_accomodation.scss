@@ -1,6 +1,6 @@
 .accomodation {
-  display: flex;
-  flex-wrap: wrap;
+  @include flexbox();
+  @include flex-wrap(wrap);
   padding: 0;
   list-style: none;
   margin-bottom: 0;

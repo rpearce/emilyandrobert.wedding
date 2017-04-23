@@ -1,3 +1,4 @@
+// Fonts
 @mixin fontHeading() {
   font-family: $fontFamily--heading;
   font-weight: bold;
@@ -7,4 +8,56 @@
   font-size: 1.25rem;
   letter-spacing: 0.15rem;
   color: #fff;
+}
+
+// CSS3
+@mixin transition($vals...) {
+  -webkit-transition: $vals;
+  transition: $vals;
+}
+@mixin transform($vals) {
+  -webkit-transform: $vals;
+  -ms-transform: $vals;
+  transform: $vals;
+}
+
+// Flexbox
+@mixin flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+@mixin flex($val) {
+  -webkit-box-flex: $val;
+  -webkit-flex: $val;
+  -ms-flex: $val;
+  flex: $val;
+}
+@mixin flex-space-between {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+@mixin align-items($val) {
+  -ms-flex-align: $val;
+  -webkit-align-items: $val;
+  -webkit-box-align: $val;
+  align-items: $val;
+}
+@mixin flex-direction($val) {
+  -webkit-flex-direction: $val;
+  flex-direction: $val;
+}
+@mixin flex-wrap($val) {
+  -webkit-flex-wrap: $val;
+  flex-wrap: $val;
+}
+@mixin order($val) {
+  -webkit-box-ordinal-group: $val;
+  -moz-box-ordinal-group: $val;
+  -ms-flex-order: $val;
+  -webkit-order: $val;
+  order: $val;
 }

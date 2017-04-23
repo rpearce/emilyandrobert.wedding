@@ -38,7 +38,7 @@ function home() {
         <div class="l--constrained">
           <div class="row">
             <div class="row__half row__half--first">
-              <img src="https://image.staah.net/images/WebsiteImages/4087/slider_32_4087_MsZqfnPtHW_Spencer%20on%20Byron%20Penthouse-15.jpg" alt="View of Takapuna & Rangitoto" />
+              <img src="images/takapuna.jpg" alt="View of Takapuna & Rangitoto" />
             </div>
             <div class="row__half">
               <h2>Takapuna Accomodation</h2>

@@ -23,9 +23,8 @@
       position: absolute;
       top: 0;
       left: 50%;
-      width: 25%;
-      transform: translateX(-50%);
       color: rgba(255, 255, 255, 0.75);
+      @include transform(translateX(-50%));
     }
   }
   &:last-of-type {
@@ -37,8 +36,8 @@
       left: 50%;
       width: 5em;
       height: 0;
-      transform: translateX(-50%);
       border-top: 1px solid rgba(255, 255, 255, 0.5);
+      @include transform(translateX(-50%));
     }
   }
 }

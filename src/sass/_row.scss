@@ -1,23 +1,23 @@
 .row {
-  display: flex;
-  flex-wrap: wrap;
+  @include flexbox();
+  @include flex-wrap(wrap);
 }
 .row--middled {
-  align-items: center;
+  @include align-items(center);
 }
 .row__half {
-  order: 2;
+  @include order(2);
   padding: 0 1em;
   width: 100%;
   @media only screen and (min-width: 768px) {
     width: 50%;
-    order: unset;
+    @include order(unset);
   }
 }
 .row__half--first {
-  order: 1;
+  @include order(1);
   margin-bottom: 1em;
   @media only screen and (min-width: 768px) {
-    order: unset;
+    @include order(unset);
   }
 }
