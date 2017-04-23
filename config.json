@@ -1,0 +1,9 @@
+{
+  "copyPaths": [
+    "CNAME",
+    "fonts",
+    "images"
+  ],
+  "outputDirectory": "docs",
+  "sourceDirectory": "src"
+}
