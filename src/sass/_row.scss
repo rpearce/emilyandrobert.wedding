@@ -1,0 +1,10 @@
+.row {
+  display: flex;
+}
+.row--middled {
+  align-items: center;
+}
+.row__half {
+  width: 50%;
+  padding: 0 1em;
+}
