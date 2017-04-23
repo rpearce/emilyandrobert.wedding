@@ -16,7 +16,6 @@ body {
 body {
   font-family: $fontFamily--base;
   line-height: 1.5;
-  //color: #334249;
   color: #434851;
   margin: 0;
 }
@@ -32,8 +31,7 @@ h1,
 h2,
 h3 {
   @include fontHeading();
-  margin: 0.5em 0;
-  color: #434851;
+  margin: 0.25em 0;
 }
 h1 {
   font-size: 2.643rem;

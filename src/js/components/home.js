@@ -34,6 +34,46 @@ function home() {
           </div>
         </div>
       </section>
+      <section>
+        <div class="l--constrained">
+          <div class="row row--middled">
+            <div class="row__half">
+              <img src="https://image.staah.net/images/WebsiteImages/4087/slider_32_4087_MsZqfnPtHW_Spencer%20on%20Byron%20Penthouse-15.jpg" alt="View of Takapuna & Rangitoto" />
+            </div>
+            <div class="row__half">
+              <h2>Takapuna Accomodation</h2>
+              <p>Takapuna is a thriving hub on the water with boutique shopping, nightlife and great views of Rangitoto, a massive island-volcano situated in the harbour.</p>
+              <p>Since Auckland covers a large amount of area, we recommend guests stay in an area called Takapuna. It is a twenty minute drive to Auckland City as well as the venue. Additionally, there will be transport after the wedding back to Takapuna.</p>
+              <ul class="accomodation">
+                <li>
+                  <a href="http://www.spencerhotel.co.nz/">Spencer Apartments</a>
+                </li>
+                <li>
+                  <a href="http://www.spencerhotel.co.nz/">The Spencer on Byron Hotel</a>
+                </li>
+                <li>
+                  <a href="https://www.airbnb.co.nz/s/Takapuna--Auckland/homes">Takapuna on AirBnB</a>
+                </li>
+                <li>
+                  <a href="http://www.takapunamotorlodge.co.nz/?gclid=CIqfv7_ps9MCFdgkvQod8aQKGQ">Takapuna Motor Lodge</a>
+                </li>
+                <li>
+                  <a href="http://www.anzac-court.co.nz/">ANZAC Court Motel</a>
+                </li>
+                <li>
+                  <a href="http://takapunainternational.co.nz/">Takapuna International Motor Lodge</a>
+                </li>
+                <li>
+                  <a href="http://parklane.co.nz/">Parklane Motor Inn</a>
+                </li>
+                <li>
+                  <a href="http://cityofsailsmotel.co.nz/">City of Sails Motel</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   `
 }
