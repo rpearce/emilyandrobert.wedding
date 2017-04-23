@@ -6,8 +6,7 @@
     "ramda": "^0.23.0"
   },
   "scripts": {
-    "build": "node index.js",
-    "deploy": "git subtree push --prefix build origin gh-pages"
+    "build": "node index.js"
   },
   "dependencies": {
     "task-from-fn": "^0.1.0"

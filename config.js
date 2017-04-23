@@ -1,7 +1,7 @@
 const path = require('path')
 
 const srcDir = path.join(__dirname, 'src')
-const outputDir = path.join(__dirname, 'build')
+const outputDir = path.join(__dirname, 'docs')
 
 const sassDir = path.join(srcDir, 'sass')
 const sassEntry = path.join(sassDir, 'app.scss')
