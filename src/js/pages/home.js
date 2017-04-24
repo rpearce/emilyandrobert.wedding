@@ -1,3 +1,5 @@
+'use strict'
+
 const layout = require('../components/layout')
 const home = require('../components/home')
 
