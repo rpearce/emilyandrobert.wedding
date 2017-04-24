@@ -37,6 +37,9 @@ function home() {
       <section>
         <div class="l--constrained">
           <div class="row">
+            <div class="row__half row__half--first">
+              <img src="images/beach.jpg" alt="NZ Beach" />
+            </div>
             <div class="row__half">
               <h2>Weather</h2>
               <p>
@@ -44,18 +47,12 @@ function home() {
                 Most days are warm and sunny, though make sure to bring plenty of sunscreen as the "burn time" is between 10am and 2pm each day!
               </p>
             </div>
-            <div class="row__half row__half--first">
-              <img src="images/beach.jpg" alt="NZ Beach" />
-            </div>
           </div>
         </div>
       </section>
       <section>
         <div class="l--constrained">
           <div class="row">
-            <div class="row__half row__half--first">
-              <img src="images/takapuna.jpg" alt="View of Takapuna & Rangitoto" />
-            </div>
             <div class="row__half">
               <h2>Takapuna Accomodation</h2>
               <p>Takapuna is a thriving hub on the water with boutique shopping, nightlife and great views of Rangitoto, a massive island-volcano situated in the harbor.</p>
@@ -87,12 +84,18 @@ function home() {
                 </li>
               </ul>
             </div>
+            <div class="row__half row__half--first">
+              <img src="images/takapuna.jpg" alt="View of Takapuna & Rangitoto" />
+            </div>
           </div>
         </div>
       </section>
       <section>
         <div class="l--constrained">
           <div class="row">
+            <div class="row__half row__half--first">
+              <img src="images/car.jpg" alt="Car in New Zealand" />
+            </div>
             <div class="row__half">
               <h2>Car Rental</h2>
               <p>While Auckland City has some public transportation, in order to get around and sight-see, a car is strongly recommended. Renting a car at the airport will allow you to get around and see everything with ease.</p>
@@ -110,9 +113,6 @@ function home() {
                   <a href="https://www.acerentalcars.co.nz/">Ace Rentals</a>
                 </li>
               </ul>
-            </div>
-            <div class="row__half row__half--first">
-              <img src="images/car.jpg" alt="Car in New Zealand" />
             </div>
           </div>
         </div>
