@@ -37,6 +37,22 @@ function home() {
       <section>
         <div class="l--constrained">
           <div class="row">
+            <div class="row__half">
+              <h2>Weather</h2>
+              <p>
+                February is New Zealand is regarded as the month with the best weather. On average the high temperature is about ~78F (25C) and the lows are around ~61F (16C).
+                Most days are warm and sunny, though make sure to bring plenty of sunscreen as the "burn time" is between 10am and 2pm each day!
+              </p>
+            </div>
+            <div class="row__half row__half--first">
+              <img src="images/beach.jpg" alt="NZ Beach" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="l--constrained">
+          <div class="row">
             <div class="row__half row__half--first">
               <img src="images/takapuna.jpg" alt="View of Takapuna & Rangitoto" />
             </div>
