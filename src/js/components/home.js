@@ -22,7 +22,7 @@ function home() {
           <div class="row">
             <div class="row__half">
               <h2>The Venue</h2>
-              <p>Located amidst the vineyards of the Kumeu Valley just 20 minutes from Auckland city, Kumeu Valley Estate contains an outdoor ceremony area, a modernized farm house and a barn complete with an outdoor patio.</p>
+              <p>Located amidst the vineyards of the Kumeu Valley just 20 minutes from Auckland city, Kumeu Valley Estate contains an outdoor ceremony area, a modernised farm house and a barn complete with an outdoor patio.</p>
               <p>
                 It is located at <a href="https://www.google.co.nz/maps/place/Kumeu+Valley+Estate/@-36.74204,174.5089526,17z/data=!4m13!1m7!3m6!1s0x6d0d13e2a8bebcf9:0x72cb9cd0bdfe7b12!2s972+Old+N+Rd,+Huapai,+Waimauku+0882!3b1!8m2!3d-36.74204!4d174.5111413!3m4!1s0x6d0d13e2a8bebcf9:0x78e8ec38867eff09!8m2!3d-36.74204!4d174.5111413">972 Old North Road, Waimauku, Auckland</a>,
                 and more information and photos can be found on the <a href="https://www.kumeuvalley.co.nz/weddings">Kumeu Valley Estate website</a>.
@@ -43,7 +43,7 @@ function home() {
             <div class="row__half">
               <h2>Weather</h2>
               <p>
-                February is New Zealand is regarded as the month with the best weather. On average the high temperature is about ~78F (25C) and the lows are around ~61F (16C).
+                February is New Zealand is regarded as the month with the best weather. On average the high temperature is about ~25C (78F) and the lows are around ~16C (61F).
                 Most days are warm and sunny, though make sure to bring plenty of sunscreen as the "burn time" is between 10am and 2pm each day!
               </p>
             </div>
@@ -55,7 +55,7 @@ function home() {
           <div class="row">
             <div class="row__half">
               <h2>Takapuna Accomodation</h2>
-              <p>Takapuna is a thriving hub on the water with boutique shopping, nightlife and great views of Rangitoto, a massive island-volcano situated in the harbor.</p>
+              <p>Takapuna is a thriving hub on the water with boutique shopping, nightlife and great views of Rangitoto, a massive island-volcano situated in the harbour.</p>
               <p>Since Auckland covers a large amount of area, we recommend guests stay in an area called Takapuna. It is a twenty minute drive to Auckland City as well as the venue. Additionally, there will be transport after the wedding back to Takapuna.</p>
               <ul class="accomodation">
                 <li>
