@@ -65,7 +65,7 @@ function home() {
                   <a href="http://www.spencerhotel.co.nz/">The Spencer on Byron Hotel</a>
                 </li>
                 <li>
-                  <a href="https://www.airbnb.co.nz/s/Takapuna--Auckland/homes">Takapuna on AirBnB</a>
+                  <a href="https://www.airbnb.co.nz/s/Takapuna--Auckland/homes?allow_override%5B%5D=&room_types%5B%5D=Entire%20home%2Fapt&s_tag=Z9S3cYJT">Takapuna on AirBnB</a>
                 </li>
                 <li>
                   <a href="http://www.takapunamotorlodge.co.nz/?gclid=CIqfv7_ps9MCFdgkvQod8aQKGQ">Takapuna Motor Lodge</a>
