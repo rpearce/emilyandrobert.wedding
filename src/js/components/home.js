@@ -59,7 +59,7 @@ function home() {
               <p>Since Auckland covers a large amount of area, we recommend guests stay in an area called Takapuna. It is a twenty minute drive to Auckland City as well as the venue. Additionally, there will be transport after the wedding back to Takapuna.</p>
               <ul class="accomodation">
                 <li>
-                  <a href="http://www.spencerhotel.co.nz/">Spencer Apartments</a>
+                  <a href="http://www.spencerapartments.co.nz/">Spencer Apartments</a>
                 </li>
                 <li>
                   <a href="http://www.spencerhotel.co.nz/">The Spencer on Byron Hotel</a>
