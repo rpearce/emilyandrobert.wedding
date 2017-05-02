@@ -1,0 +1,19 @@
+.nav {
+  margin: 0;
+  padding: 2em 0 0;
+  text-align: center;
+  list-style: none;
+  text-transform: uppercase;
+}
+.nav__item {
+  display: inline-block;
+  margin-left: 2em;
+  &:first-of-type {
+    margin-left: 0;
+  }
+
+  > a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

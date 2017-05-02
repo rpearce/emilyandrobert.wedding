@@ -1,7 +1,7 @@
 'use strict'
 
 const layout = require('../components/layout')
-const home = require('../components/home')
+const page = require('../components/home')
 
 const data = {
   siteName: `Emily & Robert Are Getting Married`,
@@ -10,7 +10,7 @@ const data = {
   uri: `https://emilyandrobert.wedding`,
   cssPath: `styles.css`,
   type: `website`,
-  body: home
+  body: page
 }
 
 module.exports = () => layout(data)

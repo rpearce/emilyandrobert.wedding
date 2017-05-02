@@ -1068,9 +1068,9 @@ tar@^2.0.0:
     fstream "^1.0.2"
     inherits "2"
 
-task-from-fn@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/task-from-fn/-/task-from-fn-0.1.0.tgz#83e6f171692a1263820493b8028dfa1495d2114c"
+task-from-fn@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/task-from-fn/-/task-from-fn-0.1.6.tgz#1b59b2e73cfe994510d4e66ea7b553246aaf4d71"
   dependencies:
     data.task "^3.1.1"
 

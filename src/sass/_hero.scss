@@ -1,7 +1,6 @@
 .hero {
   background-color: #434851;
   color: #fff;
-  padding: 4em 0;
   text-align: center;
   h1 {
     margin: 0.25em 0;
@@ -11,6 +10,9 @@
   h3 {
     color: #fff;
   }
+}
+.hero__content {
+  padding: 4em 0;
 }
 .hero__info {
   position: relative;
