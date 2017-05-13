@@ -11,48 +11,13 @@
     color: #fff;
   }
 }
+.hero--bgImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .hero__content {
   padding: 4em 0;
-}
-.hero__info {
-  position: relative;
-  &:first-of-type {
-    padding-top: 2.5em;
-    margin-bottom: 1em;
-    &:before {
-      content: "•";
-      content: "💍";
-      position: absolute;
-      top: 0;
-      left: 50%;
-      color: rgba(255, 255, 255, 0.75);
-      @include transform(translateX(-50%));
-    }
-  }
-  &:last-of-type {
-    padding-top: 1.25em;
-    &:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 50%;
-      width: 5em;
-      height: 0;
-      border-top: 1px solid rgba(255, 255, 255, 0.5);
-      @include transform(translateX(-50%));
-    }
+  .hero--bgImage & {
+    padding: 8em 0;
   }
 }
-.hero__infoLocation {
-  @include fontHeading();
-  font-size: 2rem;
-}
-.hero__infoDate {
-  @include fontSubHeading();
-  margin-top: -0.5em;
-  text-transform: lowercase;
-  sup {
-    vertical-align: top;
-  }
-}
-

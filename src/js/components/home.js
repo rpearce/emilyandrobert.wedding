@@ -1,31 +1,28 @@
 'use strict'
 
-      //<nav>
-      //  <ul class="nav">
-      //    <li class="nav__item">
-      //      <a href="/">Home</a>
-      //    </li>
-      //    <li class="nav__item">
-      //      <a href="things-to-do-and-see.html">Things To Do</a>
-      //    </li>
-      //  </ul>
-      //</nav>
 module.exports = () => `
-  <header class="hero">
+  <header class="hero wedding">
     <div class="l--constrained">
       <div class="hero__content">
         <h1>
           <div>Emily &amp; Robert</div>
           <small>Are Getting Married</small>
         </h1>
-        <div class="hero__info">
-          <div class="hero__infoLocation">Auckland</div>
-          <div class="hero__infoDate">February 18<sup>th</sup> 2018</div>
+        <div class="wedding__info">
+          <div class="wedding__infoLocation">Auckland</div>
+          <div class="wedding__infoDate">February 18<sup>th</sup> 2018</div>
         </div>
-        <div class="hero__info">
-          <div class="hero__infoLocation">Charleston</div>
-          <div class="hero__infoDate">March 3<sup>rd</sup> 2018</div>
+        <div class="wedding__info">
+          <div class="wedding__infoLocation">Charleston</div>
+          <div class="wedding__infoDate">March 3<sup>rd</sup> 2018</div>
         </div>
+        <nav>
+          <ul class="nav">
+            <li class="nav__item">
+              <a href="new-zealand-attractions.html">New Zealand Attractions</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   </header>
