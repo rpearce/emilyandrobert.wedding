@@ -1,0 +1,91 @@
+.home {
+  @include flexbox();
+  @include flex-direction(column);
+  @media only screen and (min-width: 768px) {
+    @include flex-direction(row);
+    height: 100%;
+  }
+}
+.home__header,
+.home__main {
+  position: relative;
+}
+.home__header {
+  background-color: #434851;
+  color: #fff;
+  h1 {
+    margin: 0.25em 0;
+  }
+  h1,
+  h2,
+  h3 {
+    color: #fff;
+  }
+  @media only screen and (min-width: 768px) {
+    width: 66.6666666%;
+  }
+}
+.home__headerContent {
+  @include flexbox();
+  @include flex-direction(column);
+  @include justify-content(center);
+  padding: 4em 0;
+  text-align: center;
+  @media only screen and (min-width: 768px) {
+    @include absolute(0, 0, 0, 0);
+  }
+}
+.home__main {
+  @media only screen and (min-width: 768px) {
+    width: 33.3333333%;
+  }
+}
+.home__nav {
+  @include flexbox();
+  @include flex-direction(column);
+  @include justify-content(center);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  @media only screen and (min-width: 768px) {
+    @include absolute(0, 0, 0, 0);
+  }
+}
+.home__navItem {
+  position: relative;
+  height: 50%;
+  &:first-of-type,
+  &:last-of-type {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &:first-of-type {
+    background-image: url(images/milford-sound.jpg);
+  }
+  &:last-of-type {
+    background-image: url(images/boone-hall.jpg);
+  }
+}
+.home__navLink {
+  @include flexbox();
+  @include align-items(center);
+  @include justify-content(center);
+  @include fontSubHeading();
+  height: 100%;
+  min-height: 10em;
+  text-decoration: none;
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+  &:before {
+    content: "";
+    @include absolute(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  > span {
+    padding: 0 0.5em;
+    @include transform(translateY(0.75em));
+    z-index: 1;
+  }
+}

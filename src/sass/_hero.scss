@@ -1,23 +1,13 @@
 .hero {
-  background-color: #434851;
-  color: #fff;
-  text-align: center;
-  h1 {
-    margin: 0.25em 0;
-  }
-  h1,
-  h2,
-  h3 {
-    color: #fff;
-  }
-}
-.hero--bgImage {
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+}
+.hero--charleston {
+  background-position: center 90%;
 }
 .hero__content {
-  padding: 4em 0;
-  .hero--bgImage & {
-    padding: 8em 0;
-  }
+  padding: 8em 0;
+  color: #fff;
+  text-align: center;
 }

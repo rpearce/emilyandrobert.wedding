@@ -4,7 +4,8 @@ const build = require('./lib/perform')
 const buildSass = require('./lib/sass')
 const optimizeHtml = require('./lib/html')
 const homePage = require('./src/js/pages/home')
-const thingsToDoPage = require('./src/js/pages/new-zealand-attractions')
+const nzPage = require('./src/js/pages/new-zealand')
+const chsPage = require('./src/js/pages/charleston')
 
 buildSass('src/sass', 'src/sass/app.scss')
   .chain(css => build({
@@ -16,7 +17,8 @@ buildSass('src/sass', 'src/sass/app.scss')
     ],
     writable: [
       { path: 'docs/index.html', content: optimizeHtml(homePage()) },
-      { path: 'docs/new-zealand-attractions.html', content: optimizeHtml(thingsToDoPage()) },
+      { path: 'docs/new-zealand.html', content: optimizeHtml(nzPage()) },
+      { path: 'docs/charleston.html', content: optimizeHtml(chsPage()) },
       { path: 'docs/styles.css', content: css }
     ]
   }))
