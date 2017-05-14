@@ -53,7 +53,6 @@
 }
 .home__navItem {
   position: relative;
-  height: 50%;
   &:first-of-type,
   &:last-of-type {
     background-size: cover;
@@ -65,6 +64,9 @@
   }
   &:last-of-type {
     background-image: url(images/boone-hall.jpg);
+  }
+  @media only screen and (min-width: 768px) {
+    height: 50%;
   }
 }
 .home__navLink {
