@@ -9,5 +9,8 @@
     "node-sass": "^4.5.2",
     "ramda": "^0.23.0",
     "task-from-fn": "^0.1.6"
+  },
+  "devDependencies": {
+    "favicon-emoji": "^1.0.4"
   }
 }
