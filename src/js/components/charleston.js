@@ -12,7 +12,24 @@ module.exports = () => `
     <main>
       <section>
         <div class="l--constrained">
-          <p class="align--center"><em>Info coming soon!</em></p>
+          <div class="row">
+            <div class="row__half row__half--first">
+              <img src="images/the-battery.jpg" alt="The Battery in Charleston, SC" />
+            </div>
+            <div class="row__half">
+              <h2>Weather</h2>
+              <p>
+                March in Charleston is typically sporadic, with temperatures historically ranging from 9C (48F) to 24C (75F).
+                Regardless, it is early spring, and that will hopefully bring blooming flowers and sunny days!
+                One should note that swimming in the ocean at this time might not be the best idea, but that shouldn't stop you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="l--constrained">
+          <p class="align--center"><em>More info coming soon!</em></p>
         </div>
       </section>
     </main>
