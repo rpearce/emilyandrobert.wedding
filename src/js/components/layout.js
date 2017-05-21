@@ -27,7 +27,7 @@ module.exports = ({
       <meta property="og:image" content="${imageUri}">
       <meta property="og:type" content="${type}">
 
-      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="shortcut icon" href="/favicon.ico">
       <link rel="canonical" href="${canonicalUri || uri}">
       <link rel="stylesheet" href="${cssPath}">
       ${headExtra}
