@@ -2,7 +2,7 @@
 
 module.exports = () => `
   <div>
-    <header class="hero hero--charleston" style="background-image: url(images/boone-hall2.jpg)">
+    <header class="hero hero--charleston" style="background-image: url(/images/boone-hall2.jpg)">
       <div class="l--constrained">
         <div class="hero__content">
           <h1>Charleston Information</h1>
@@ -14,7 +14,7 @@ module.exports = () => `
         <div class="l--constrained">
           <div class="row">
             <div class="row__half row__half--first">
-              <img src="images/the-battery.jpg" alt="The Battery in Charleston, SC" />
+              <img src="/images/the-battery.jpg" alt="The Battery in Charleston, SC" />
             </div>
             <div class="row__half">
               <h2>Weather</h2>

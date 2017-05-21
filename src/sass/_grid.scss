@@ -1,0 +1,36 @@
+.grid {
+  @include flexbox();
+  @include flex-wrap(wrap);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin: -1em 0 1em -1em;
+}
+.grid__item {
+  padding: 1em 0 2em 1em;
+  h3 {
+    @include fontSubHeading();
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    > a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
+.grid__image {
+  height: 0;
+  padding-bottom: 75%;
+  background-repeat: no-repeat;
+  background-color: #ccc;
+  background-position: center;
+  background-size: cover;
+}
+.grid__item--1of3 {
+  @media only screen and (min-width: 600px) {
+    width: 50%;
+  }
+  @media only screen and (min-width: 768px) {
+    width: 33.3333%;
+  }
+}
