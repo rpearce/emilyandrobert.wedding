@@ -9,8 +9,6 @@
 .grid__item {
   padding: 1em 0 2em 1em;
   h3 {
-    @include fontSubHeading();
-    font-size: 1.5rem;
     margin-bottom: 0;
     > a {
       text-decoration: none;
