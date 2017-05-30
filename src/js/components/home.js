@@ -13,9 +13,12 @@ module.exports = () => `
             <div class="wedding__infoLocation">Auckland</div>
             <div class="wedding__infoDate">February 18<sup>th</sup> 2018</div>
           </div>
-          <div class="wedding__info">
+          <div class="wedding__info wedding__info--bordered">
             <div class="wedding__infoLocation">Charleston</div>
             <div class="wedding__infoDate">March 3<sup>rd</sup> 2018</div>
+          </div>
+          <div class="wedding__info wedding__info--bordered">
+            <a href="/registry.html" class="wedding__link">Registry</a>
           </div>
         </div>
       </div>

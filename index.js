@@ -7,6 +7,7 @@ const homePage = require('./src/js/pages/home')
 const nzPage = require('./src/js/pages/new-zealand')
 const nzToDoPage = require('./src/js/pages/nz-things-to-do')
 const chsPage = require('./src/js/pages/charleston')
+const registryPage = require('./src/js/pages/registry')
 
 buildSass('src/sass', 'src/sass/app.scss')
   .chain(css => build({
@@ -22,6 +23,7 @@ buildSass('src/sass', 'src/sass/app.scss')
       { path: 'docs/new-zealand.html', content: optimizeHtml(nzPage()) },
       { path: 'docs/new-zealand/things-to-do.html', content: optimizeHtml(nzToDoPage()) },
       { path: 'docs/charleston.html', content: optimizeHtml(chsPage()) },
+      { path: 'docs/registry.html', content: optimizeHtml(registryPage()) },
       { path: 'docs/styles.css', content: css }
     ]
   }))
