@@ -18,32 +18,32 @@ module.exports = () => `
           </p>
         </div>
       </section>
-      <section>
-        <div class="l--constrained">
-          <h2>For Americans &amp; Brits</h2>
-          <h3>Belk</h3>
-          <ol>
-            <li>Head to <a href="https://www.belk.com/bridalregistry/bridal_registry.jsp">https://www.belk.com/bridalregistry/bridal_registry.jsp</a></li>
-            <li>In the <em>Give a Gift</em> section, select <em>Search by registry number</em></li>
-            <li>Enter <strong>102257152</strong> and click <em>find</em></li>
-          </ol>
-          <h3>Pottery Barn</h3>
-          <ol>
-            <li>Head to <a href="https://www.potterybarn.com/registry/thbdzb2w6x/registry-list.html">https://www.potterybarn.com/registry/thbdzb2w6x/registry-list.html</a></li>
-            <li>That's it!</li>
-          </ol>
-        </div>
-      </section>
-      <section>
-        <div class="l--constrained">
-          <h2>For New Zealanders</h2>
-          <h3>Mildred & Co.</h3>
-          <p>
-            The Mildred & Co. website won't be available until September, 2017, but this will be the link when it's made available!
-            <a href="http://www.mildredandco.com/weddingregistry/index/registry/id/TreasurePearce2607/">http://www.mildredandco.com/weddingregistry/index/registry/id/TreasurePearce2607/</a>
-          </p>
-        </div>
-      </section>
+      <div class="l--constrained">
+        <ul class="registry">
+          <li>
+            <a href="https://www.amazon.com/wedding/emily-treasure-robert-pearce-auckland-february-2018/registry/1EDE6CD8TXKRV">
+              <img src="/images/registry-amazon.jpg" alt="Wedding Registry on Amazon" title="Wedding Registry on Amazon" />
+            </a>
+            <p>(International)</p>
+          </li>
+          <li>
+            <a href="https://www.belk.com/bridalregistry/bridal_registry.jsp">
+              <img src="/images/registry-belk.jpg" alt="Wedding Registry on Belk" title="Wedding Registry on Belk" />
+            </a>
+            <p>
+              In the <em>Give a Gift</em> section, select <em>Search by registry number</em>, enter <strong>102257152</strong> and click <em>find</em>
+              <br />
+              (USA)
+            </p>
+          </li>
+          <li>
+            <a href="https://www.potterybarn.com/registry/thbdzb2w6x/registry-list.html">
+              <img src="/images/registry-pb.jpg" alt="Wedding Registry on Pottery Barn" title="Wedding Registry on Pottery Barn" />
+            </a>
+            <p>(USA)</p>
+          </li>
+        </ul>
+      </div>
     </main>
   </div>
 `
