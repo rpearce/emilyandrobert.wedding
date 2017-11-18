@@ -21,13 +21,13 @@ module.exports = () => `
       <div class="l--constrained">
         <ul class="registry">
           <li>
-            <a href="https://www.amazon.com/wedding/emily-treasure-robert-pearce-auckland-february-2018/registry/1EDE6CD8TXKRV">
+            <a href="https://www.amazon.com/wedding/emily-treasure-robert-pearce-auckland-february-2018/registry/1EDE6CD8TXKRV" target="_blank">
               <img src="/images/registry-amazon.jpg" alt="Wedding Registry on Amazon" title="Wedding Registry on Amazon" />
             </a>
             <p>(International)</p>
           </li>
           <li>
-            <a href="https://www.belk.com/bridalregistry/bridal_registry.jsp">
+            <a href="https://www.belk.com/bridalregistry/bridal_registry.jsp" target="_blank">
               <img src="/images/registry-belk.jpg" alt="Wedding Registry on Belk" title="Wedding Registry on Belk" />
             </a>
             <p>
@@ -37,7 +37,7 @@ module.exports = () => `
             </p>
           </li>
           <li>
-            <a href="https://www.potterybarn.com/registry/thbdzb2w6x/registry-list.html">
+            <a href="https://www.potterybarn.com/registry/thbdzb2w6x/registry-list.html" target="_blank">
               <img src="/images/registry-pb.jpg" alt="Wedding Registry on Pottery Barn" title="Wedding Registry on Pottery Barn" />
             </a>
             <p>(USA)</p>

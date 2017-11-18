@@ -19,6 +19,7 @@ module.exports = () => `
           </div>
           <div class="wedding__info wedding__info--bordered">
             <a href="/registry.html" class="wedding__link">Registry</a>
+            <a href="https://emilyandrobert.typeform.com/to/h8ROk0" class="wedding__link" target="_blank">RSVP</a>
           </div>
         </div>
       </div>

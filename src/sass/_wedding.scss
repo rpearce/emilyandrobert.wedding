@@ -53,4 +53,7 @@
     color: #434851;
     border: 1px solid #fff;
   }
+  & + .wedding__link {
+    margin-left: 1em;
+  }
 }
