@@ -54,10 +54,10 @@ module.exports = () => `
         <div class="l--constrained">
           <div class="row">
             <div class="row__half">
-              <h2>Takapuna Accomodation</h2>
+              <h2>Takapuna Accommodation</h2>
               <p>Takapuna is a thriving hub on the water with boutique shopping, nightlife and great views of Rangitoto, a massive island-volcano situated in the harbour.</p>
-              <p>Since Auckland covers a large amount of area, we recommend guests stay in an area called Takapuna. It is a twenty minute drive to Auckland City as well as the venue. Additionally, there will be transport after the wedding back to Takapuna.</p>
-              <ul class="accomodation">
+              <p>Since Auckland covers a large amount of area, we recommend guests stay in an area called Takapuna. It is a twenty minute drive to Auckland City as well as the venue. Additionally, there will be a pre-booked coach taking the overseas guests back to their accommodation in the Takapuna area after the wedding.</p>
+              <ul class="accommodation">
                 <li>
                   <a href="http://www.spencerapartments.co.nz/">Spencer Apartments</a>
                 </li>
