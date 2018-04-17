@@ -1,6 +1,5 @@
 {
   "copyPaths": [
-    "CNAME",
     "fonts",
     "images"
   ],
