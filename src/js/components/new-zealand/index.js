@@ -2,7 +2,7 @@
 
 module.exports = () => `
   <div>
-    <header class="hero" style="background-image: url(/images/roys-peak.jpg)">
+    <header class="hero" style="background-image: url(images/roys-peak.jpg)">
       <div class="l--constrained">
         <div class="hero__content">
           <h1>New Zealand Information</h1>
@@ -13,7 +13,7 @@ module.exports = () => `
       <section>
         <div class="l--constrained">
           <p class="align--center">
-            <em>Looking for things to do? <a href="/new-zealand/things-to-do.html">Click here</a></em>
+            <em>Looking for things to do? <a href="new-zealand/things-to-do.html">Click here</a></em>
           </p>
         </div>
       </section>
@@ -29,7 +29,7 @@ module.exports = () => `
               </p>
             </div>
             <div class="row__half row__half--first">
-              <img src="/images/kumeu.jpg" alt="Kumeu Valley Estate" />
+              <img src="images/kumeu.jpg" alt="Kumeu Valley Estate" />
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@ module.exports = () => `
         <div class="l--constrained">
           <div class="row">
             <div class="row__half row__half--first">
-              <img src="/images/beach.jpg" alt="NZ Beach" />
+              <img src="images/beach.jpg" alt="NZ Beach" />
             </div>
             <div class="row__half">
               <h2>Weather</h2>
@@ -85,7 +85,7 @@ module.exports = () => `
               </ul>
             </div>
             <div class="row__half row__half--first">
-              <img src="/images/takapuna.jpg" alt="View of Takapuna & Rangitoto" />
+              <img src="images/takapuna.jpg" alt="View of Takapuna & Rangitoto" />
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ module.exports = () => `
         <div class="l--constrained">
           <div class="row">
             <div class="row__half row__half--first">
-              <img src="/images/car.jpg" alt="Car in New Zealand" />
+              <img src="images/car.jpg" alt="Car in New Zealand" />
             </div>
             <div class="row__half">
               <h2>Car Rental</h2>

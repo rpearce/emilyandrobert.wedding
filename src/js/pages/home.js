@@ -7,8 +7,8 @@ const data = {
   siteName: `Emily & Robert Are Getting Married`,
   title: `Emily & Robert Are Getting Married`,
   description: `Information pertaining to the big day(s)`,
-  uri: `https://emilyandrobert.wedding`,
-  cssPath: `/styles.css`,
+  uri: `https://rpearce.github.io/emilyandrobert.wedding`,
+  cssPath: `styles.css`,
   type: `website`,
   body: page
 }

@@ -7,8 +7,8 @@ const data = {
   siteName: `Emily & Robert Are Getting Married`,
   title: `New Zealand Information`,
   description: `Information pertaining to Emily and Robert's wedding activities in New Zealand`,
-  uri: `https://emilyandrobert.wedding/new-zealand.html`,
-  cssPath: `/styles.css`,
+  uri: `https://rpearce.github.io/emilyandrobert.wedding/new-zealand.html`,
+  cssPath: `styles.css`,
   type: `article`,
   body: page
 }

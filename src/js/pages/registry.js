@@ -8,7 +8,7 @@ const data = {
   title: `Wedding Registry`,
   description: `Wedding Registry`,
   uri: `https://emilyandrobert.wedding/registry.html`,
-  cssPath: `/styles.css`,
+  cssPath: `styles.css`,
   type: `article`,
   body: page
 }

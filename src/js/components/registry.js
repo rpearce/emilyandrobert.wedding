@@ -2,7 +2,7 @@
 
 module.exports = () => `
   <div>
-    <header class="hero" style="background-image: url(/images/roys-peak.jpg)">
+    <header class="hero" style="background-image: url(images/roys-peak.jpg)">
       <div class="l--constrained">
         <div class="hero__content">
           <h1>Wedding Registry</h1>
@@ -22,13 +22,13 @@ module.exports = () => `
         <ul class="registry">
           <li>
             <a href="https://www.amazon.com/wedding/emily-treasure-robert-pearce-auckland-february-2018/registry/1EDE6CD8TXKRV" target="_blank">
-              <img src="/images/registry-amazon.jpg" alt="Wedding Registry on Amazon" title="Wedding Registry on Amazon" />
+              <img src="images/registry-amazon.jpg" alt="Wedding Registry on Amazon" title="Wedding Registry on Amazon" />
             </a>
             <p>(International)</p>
           </li>
           <li>
             <a href="https://www.belk.com/bridalregistry/bridal_registry.jsp" target="_blank">
-              <img src="/images/registry-belk.jpg" alt="Wedding Registry on Belk" title="Wedding Registry on Belk" />
+              <img src="images/registry-belk.jpg" alt="Wedding Registry on Belk" title="Wedding Registry on Belk" />
             </a>
             <p>
               In the <em>Give a Gift</em> section, select <em>Search by registry number</em>, enter <strong>102257152</strong> and click <em>find</em>
@@ -38,7 +38,7 @@ module.exports = () => `
           </li>
           <li>
             <a href="https://www.potterybarn.com/registry/thbdzb2w6x/registry-list.html" target="_blank">
-              <img src="/images/registry-pb.jpg" alt="Wedding Registry on Pottery Barn" title="Wedding Registry on Pottery Barn" />
+              <img src="images/registry-pb.jpg" alt="Wedding Registry on Pottery Barn" title="Wedding Registry on Pottery Barn" />
             </a>
             <p>(USA)</p>
           </li>

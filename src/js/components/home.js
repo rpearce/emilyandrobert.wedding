@@ -18,8 +18,7 @@ module.exports = () => `
             <div class="wedding__infoDate">March 3<sup>rd</sup> 2018</div>
           </div>
           <div class="wedding__info wedding__info--bordered">
-            <a href="/registry.html" class="wedding__link">Registry</a>
-            <a href="https://emilyandrobert.typeform.com/to/h8ROk0" class="wedding__link" target="_blank">RSVP</a>
+            <a href="registry.html" class="wedding__link">Registry</a>
           </div>
         </div>
       </div>

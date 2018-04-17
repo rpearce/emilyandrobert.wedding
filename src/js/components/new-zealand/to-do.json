@@ -2,61 +2,61 @@
   "auckland": [
     {
       "title": "Sky Tower",
-      "image": "/images/sky-tower.jpg",
+      "image": "../images/sky-tower.jpg",
       "body": "Take the elevator up the top for views and a glass floor. There is also a revolving restaurant near the top!",
       "link": "https://www.skycityauckland.co.nz"
     },
     {
       "title": "Auckland Museum",
-      "image": "/images/auckland-war-museum.jpg",
+      "image": "../images/auckland-war-museum.jpg",
       "body": "Museum with NZ history, natural history, as well as military history. There are also botanical gardens, walking areas and great views.",
       "link": "http://www.aucklandmuseum.com"
     },
     {
       "title": "Viaduct Harbour",
-      "image": "/images/viaduct-harbour.jpg",
+      "image": "../images/viaduct-harbour.jpg",
       "body": "An attractive area to walk around with many restaurants, cafes and boat tours. The nearby Wynyard quarter sports many restaurants and occasional outdoor activities.",
       "link": "https://www.viaduct.co.nz"
     },
     {
       "title": "North Shore beaches",
-      "image": "/images/orewa-beach.jpg",
+      "image": "../images/orewa-beach.jpg",
       "body": "There are many beaches along the North Shore, and many of them are lined with cafes, restaurants/bars and small shops.",
       "link": "http://www.newzealand.com/int/feature/aucklands-north-shore-beaches"
     },
     {
       "title": "Mt. Eden",
-      "image": "/images/mt-eden.jpg",
+      "image": "../images/mt-eden.jpg",
       "body": "Mt. Eden is a dormant volcano near central Auckland that can be driven or walked up. It is the highest land in Auckland, and as such, has great landscape views.",
       "link": "http://www.aucklandcouncil.govt.nz/EN/parksfacilities/premierparks/Pages/mteden.aspx"
     },
     {
       "title": "Devonport",
-      "image": "/images/devonport.jpg",
+      "image": "../images/devonport.jpg",
       "body": "The Devonport area is an attractive suburb on the water with many shops and cafes. You can get there via car or even ferry from the city!",
       "link": "http://www.visitdevonport.co.nz"
     },
     {
       "title": "Waiheke Island",
-      "image": "/images/mudbrick-waiheke.jpg",
+      "image": "../images/mudbrick-waiheke.jpg",
       "body": "A short ferry ride from Auckland city, this island is full of vineyards, wineries, breweries and beaches. A must do.",
       "link": "https://www.waiheke.co.nz"
     },
     {
       "title": "Rangitoto Island",
-      "image": "/images/rangitoto.jpg",
+      "image": "../images/rangitoto.jpg",
       "body": "Rangitoto is a dormant island-volcano in the Auckland harbour. It is accessible only by ferry and has a few different hiking trails. The summit is gorgeous and overlooks the entire area.",
       "link": "http://www.doc.govt.nz/rangitoto"
     },
     {
       "title": "West Coast Beaches",
-      "image": "/images/piha.jpg",
+      "image": "../images/piha.jpg",
       "body": "These beautiful, rugged black-sand beaches with strong surf are great for hiking, walking and (for the bold) surfing.",
       "link": "http://regionalparks.aucklandcouncil.govt.nz/piha"
     },
     {
       "title": "Auckland Bridge",
-      "image": "/images/auckland-bridge-bungy.jpg",
+      "image": "../images/auckland-bridge-bungy.jpg",
       "body": "This bridge is one of the main thoroughfares into and out of Auckland city. But why drive over it when you can <a href=\"http://www.bungy.co.nz/auckland-bridge/auckland-bridge-climb\">climb it</a> or <a href=\"http://www.bungy.co.nz/auckland-bridge/auckland-bridge-bungy\">jump off it?</a>",
       "link": "http://www.bungy.co.nz/auckland-bridge/auckland-bridge-bungy"
     }
@@ -64,31 +64,31 @@
   "dayTrips": [
     {
       "title": "Hobbiton",
-      "image": "/images/hobbiton.jpg",
+      "image": "../images/hobbiton.jpg",
       "body": "Visit the gorgeous set from Lord of the Rings and The Hobbit that is also a working farm and boasts a functioning pub at the end.",
       "link": "http://www.hobbitontours.com"
     },
     {
       "title": "Goat Island, Matakana Markets & Vineyards",
-      "image": "/images/goat-island.jpg",
+      "image": "../images/goat-island.jpg",
       "body": "Drive up north, taking the scenic route and enjoying the beautiful country! Stop in Matakana, on Saturdays they have a great market. At Goat Island you can swim, snorkel, hike or just relax! After, stop by the <a href=\"http://www.sawmillcafe.co.nz/\">Leigh Sawmill</a> for great food and drinks. There are also vineyards in the area.",
       "link": "https://www.aucklandnz.com/visit/destinations/auckland-north/matakana-coast"
     },
     {
       "title": "Waitomo Caves",
-      "image": "/images/waitomo.jpg",
+      "image": "../images/waitomo.jpg",
       "body": "Take a boat ride through the caves to see the famous glow worms, or try something more adventurous like tubing through the caves!",
       "link": "http://www.waitomo.com/"
     },
     {
       "title": "Karangahake Gorge Historic Walkway",
-      "image": "/images/karangahake-gorge.jpg",
+      "image": "../images/karangahake-gorge.jpg",
       "body": "Cliff faces with sheer drops, native bush, gushing waterfalls and a river. Cross the swing bridge and go for a walk (long and short options). Learn about some goldmining history, discover stunning waterfalls before heading to The Talisman Café for a bite to eat.",
       "link": "http://www.doc.govt.nz/parks-and-recreation/places-to-go/bay-of-plenty/places/kaimai-mamaku-forest-park/things-to-do/tracks/karangahake-gorge-historic-walkway/"
     },
     {
       "title": "Kitekite Falls",
-      "image": "/images/kitekite-falls.jpg",
+      "image": "../images/kitekite-falls.jpg",
       "body": "Hike to one of NZ’s most famous waterfalls with a swimming hole!",
       "link": "http://regionalparks.aucklandcouncil.govt.nz/piha/track/Kitekite%20Track"
     }

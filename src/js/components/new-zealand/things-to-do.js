@@ -17,7 +17,7 @@ const buildItem = item => `
 
 module.exports = () => `
   <div>
-    <header class="hero" style="background-image: url(/images/roys-peak.jpg)">
+    <header class="hero" style="background-image: url(../images/roys-peak.jpg)">
       <div class="l--constrained">
         <div class="hero__content">
           <h1>NZ – Things To Do & See</h1>
